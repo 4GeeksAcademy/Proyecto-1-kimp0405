@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-1-kimp0405",
+  "version": "1.0.0",
+  "description": "Este es el modelo preliminar para poder hacer pruebas de aplicaciones y prácticas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4GeeksAcademy/Proyecto-1-kimp0405.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/4GeeksAcademy/Proyecto-1-kimp0405/issues"
+  },
+  "homepage": "https://github.com/4GeeksAcademy/Proyecto-1-kimp0405#readme"
+  
+}

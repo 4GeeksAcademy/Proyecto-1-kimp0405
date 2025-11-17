@@ -1,0 +1,26 @@
+{
+  "name": "Node.js Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts",
+      "nvmInstallPath": "/usr/local/share/nvm"
+    }
+  },
+
+  "postCreateCommand": "npm install",
+  "remoteUser": "vscode"
+}
